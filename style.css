@@ -1,6 +1,6 @@
-nav ul {
-  margin: 20;
-  padding: 12;
+nav ul{
+  margin: 20px;
+  padding: 12px;
   list-style: none;
   background: Red;
 }
@@ -17,7 +17,6 @@ nav a {
 .topmenu > li {
   position: relative;
 }
-
 .topmenu > li > a {  
   padding: 10px 0px;
   font-size: 16px;
@@ -28,6 +27,8 @@ nav a {
 .submenu {
   position: absolute;
   z-index: 5;
+  margin: 1px;
+  padding: 1px;
   min-width: 200px;
   background: white;
   border-top: 1px solid #CBCBCC;
@@ -62,6 +63,8 @@ nav li:hover > .submenu {
   position: absolute;
   z-index: 5;
   min-width: 200px;
+  margin: 1px;
+  padding: 1px;
   background: white;
   border-top: 1px solid #CBCBCC;
   border-left: 1px solid #CBCBCC;
